@@ -1,0 +1,22 @@
+{
+    "name": "forge-editor",
+    "displayName": "Forge Data Editor",
+    "description": "Editor for CRPG game data like characters, items, quests, and dialogues.",
+    "version": "0.0.1",
+    "publisher": "forge",
+    "engines": {
+        "vscode": "^1.90.0"
+    },
+    "activationEvents": [
+        "onStartupFinished"
+    ],
+    "main": "./out/extension.js",
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./"
+    },
+    "devDependencies": {
+        "@types/vscode": "^1.90.0"
+    }
+}
